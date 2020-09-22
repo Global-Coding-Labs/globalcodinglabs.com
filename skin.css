@@ -29,7 +29,7 @@ section .cnt-box.boxed.light .caption, .img-box-caption span, .cnt-box-badge .ba
 main > section.section-base.section-color.light, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .counter i,
 .cnt-box-side-icon.boxed.light > i, .cnt-box-top-icon.boxed.light > i, .media-box-half, .album-box .caption, .album-box .img-box, .icon-box i, .media-box.media-box-reveal .caption,
 .media-box-full:before, .list-nav a.list-archive:hover, .header-base h2, .list-tags a, .img-box:before, .menu-mini, .menu-side, .btn-video:empty:hover, .tweets_txt {
-    background-color: rgb(0, 71, 103);
+    background-color: rgb(169, 169, 169);
 }
 
 .boxed-area.light, .media-box-full .caption {
