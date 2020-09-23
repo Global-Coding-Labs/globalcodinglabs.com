@@ -146,7 +146,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .cnt-box.boxed .caption, .cnt-box-side-icon.boxed > i, .cnt-box-top-icon.boxed > i, .boxed-area, .cnt-box-top-icon.boxed, .cnt-box-testimonials-bubble > p, .section-color .icon-box i {
-    background-color: rgb(255, 255, 255);
+    background-color: DarkSlateBlue; /* box do menu superior quando focado??? */
 }
 
 .light .glide__bullets > button {
