@@ -138,7 +138,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a {
-    background-color: #A8A8FF;
+    background-color: DarkSlateBlue;
 }
 
 .menu-cnt > ul > li > a:first-child {
