@@ -124,21 +124,21 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
 
 .menu-cnt > ul > li > a, .menu-cnt, nav .lan-menu > li > a, i.scroll-top-btn, .cart-item h5, .shop-menu p, .shop-menu .cart-buttons a, .icon-box i, .counter i, .media-box .caption h2, .media-box .caption p,
 footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hover i, .icon-links.icon-links-button a i, nav .icon-links:not(.social-colors) a i, .menu-btn {
-    color: #a8a8ff;
+    color: #A8A8FF;
 }
 
 .section-home-slider h2 span, footer.light ul li > a, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .social-colors.icon-links-grid a:hover i {
-    color: #a8a8ff !important;
+    color: #A8A8FF !important;
 }
 
 @media (max-width: 991.98px) {
     .light .dropdown ul li:hover > a, .light .shop-menu .cart-buttons a {
-        color: #a8a8ff !important;
+        color: #A8A8FF !important;
     }
 }
 
 .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a {
-    background-color: transparent;
+    background-color: #A8A8FF;
 }
 
 .menu-cnt > ul > li > a:first-child {
