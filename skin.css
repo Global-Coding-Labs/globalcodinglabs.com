@@ -747,7 +747,7 @@ h3 + h1 {
 }
 
 .menu-side .menu-cnt > ul > li.dropdown > a:after {
-    opacity: .7;
+    opacity: .9;
 }
 
 body > nav.menu-subtitle .search-box-menu.active > input {
@@ -762,7 +762,7 @@ body > nav.menu-subtitle > .container {
     position: relative;
     text-transform: none;
     font-size: 11px;
-    color: rgba(255, 255, 255, 0.65);
+    color: DarkSlateBlue; /* cor do drop down no top menu? */ 
     font-weight: 500;
     letter-spacing: .2px;
     bottom: 30px;
