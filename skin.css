@@ -124,16 +124,16 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
 
 .menu-cnt > ul > li > a, .menu-cnt, nav .lan-menu > li > a, i.scroll-top-btn, .cart-item h5, .shop-menu p, .shop-menu .cart-buttons a, .icon-box i, .counter i, .media-box .caption h2, .media-box .caption p,
 footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hover i, .icon-links.icon-links-button a i, nav .icon-links:not(.social-colors) a i, .menu-btn {
-    color: #FFF;
+    color: #a8a8ff;
 }
 
 .section-home-slider h2 span, footer.light ul li > a, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .social-colors.icon-links-grid a:hover i {
-    color: #FFF !important;
+    color: #a8a8ff !important;
 }
 
 @media (max-width: 991.98px) {
     .light .dropdown ul li:hover > a, .light .shop-menu .cart-buttons a {
-        color: #FFF !important;
+        color: #a8a8ff !important;
     }
 }
 
