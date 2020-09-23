@@ -436,7 +436,7 @@ hr.space-45 {
     z-index: 2;
     max-width: 400px;
     margin-top: 30px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.18823529411764706);
+    text-shadow: 0 1px 3px rgba(72, 61, 139, 0.18823529411764706); /* tentando mudar a cor que desaparece qdo coloca o mouse no menu superior */
     text-transform: uppercase;
     transition: all .6s;
 }
