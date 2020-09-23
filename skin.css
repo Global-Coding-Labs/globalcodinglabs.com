@@ -88,12 +88,12 @@ body > header h2, .breadcrumb li:last-child a, .cnt-box-side .extra-field, .cnt-
 .album-title > a:before, .accordion-list > li.active > a, .media-box.media-box-reveal .caption h3, .cnt-box-top .extra-field, .list-nav a:first-child:before, .list-nav a:last-child:before,
 .cnt-box-testimonials-bubble .thumb-bar span:last-child, .cnt-box-side-icon > i, .countdown-vertical [data-time] > div > span:first-child, .countdown-horizontal [data-time] > div > span:first-child,
 .social-feed a {
-    color: #03BFCB
+    color: ##2f4f4f
 }
 
 footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover > a, .section-home-slider [data-to], .section-home-slider h2, .light .title p, body > header.light h2,
 .boxed-area.light .text-list-bold li b, .text-color-2 {
-    color: #03BFCB !important;
+    color: #2f4f4f !important;
 }
 
 .cnt-box-blog-side .blog-date span:last-child, .progress-bar > div > div, footer .icon-list li:before, .shop-menu .cart-buttons a:hover, .cnt-box-blog-top .blog-date span:last-child, .btn-video:empty,
