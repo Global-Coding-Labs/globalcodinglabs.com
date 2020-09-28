@@ -20,7 +20,7 @@
 
 body, p, a, .btn-text, .input-text, .input-select, .input-textarea, .cnt-box-blog-side .btn-text:not(:hover):after, .cnt-box-blog-top .btn-text:not(:hover):after, .icon-list span, .icon-list span a,
 .social-links a i, a, .glide__arrow, .search-bar input[type=submit], .menu-cnt > ul > li a, .media-box.media-box-down .caption p {
-    color: rgb(64, 77, 96);
+    color: rgb(5, 137, 199);
 }
 
 body > nav, footer, .progress-bar > div, .progress-bar > div span, .shop-menu-cnt .shop-menu, i.scroll-top-btn, .tab-nav li a:before, .tab-nav li a:after, .btn:not(.btn-border):hover,
@@ -29,7 +29,7 @@ section .cnt-box.boxed.light .caption, .img-box-caption span, .cnt-box-badge .ba
 main > section.section-base.section-color.light, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .counter i,
 .cnt-box-side-icon.boxed.light > i, .cnt-box-top-icon.boxed.light > i, .media-box-half, .album-box .caption, .album-box .img-box, .icon-box i, .media-box.media-box-reveal .caption,
 .media-box-full:before, .list-nav a.list-archive:hover, .header-base h2, .list-tags a, .img-box:before, .menu-mini, .menu-side, .btn-video:empty:hover, .tweets_txt {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
 }
 
 .boxed-area.light, .media-box-full .caption {
@@ -39,7 +39,7 @@ main > section.section-base.section-color.light, .section-color.light .input-tex
 h1, h2, h3, h4, h5, h6, .cnt-call .caption .btn-text, .section-color .icon-box i, .counter .value span, .breadcrumb li a, .step-item > span, .cnt-pricing-table .price span, .cnt-pricing-table .top-area p,
 .album-title span, .text-list-bold li > b:first-child, .text-list-line li b, .list-nav a, .menu-inner-image li a span, .controls-bottom-right .glide__arrow, .icon-list-blog a, .quote, .table-time th,
 .form-box p, .countdown-vertical [data-time] > div > span, .countdown-horizontal [data-time] > div > span:last-child, .media-box.media-box-down .caption h2, .menu-inner .menu-btn, .menu-inner > div > span {
-    color: rgb(0, 71, 103);
+    color: rgb(5, 137, 199);
 }
 
 .light .dropdown ul li:not(:hover) > a, .text-color-1 {
@@ -100,12 +100,12 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
 .dropdown ul:not(.icon-list) li:hover > a, .cnt-box-info .extra-field, .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, .dropdown > ul:before, .shop-menu-cnt .cart-count, .light .icon-box i, .light .counter i,
 .section-color.light .btn:not(.btn-border):hover, .breadcrumb li a:after, .menu-inner li:before, .text-list-base li > div, .text-list-image .content > div, .text-list-side li > div, .text-line:before,
 .icon-line li:before, .icon-line span:before, .icon-circle li:before, .media-box-reveal .caption h3:before, .arrows-inner-right .glide__arrow, .light .breadcrumb li a:after, .list-tags a:hover {
-    background-color: #03BFCB
+    background-color: rgb(0, 71, 103)
 }
 
 .btn, .icon-links-grid a:hover, .icon-links-button a, .pagination li.page:hover a, .pagination li.page.active a, .list-nav a.list-archive {
-    background-color: #03BFCB;
-    border-color: #03BFCB;
+    background-color: rgb(0, 71, 103);
+    border-color: rgb(0, 71, 103);  /* button collors / cor dos botões */
 }
 
 .light .glide__bullets > button.glide__bullet--active, .section-home-slider .glide__arrow {
@@ -115,7 +115,7 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
 
 .shop-menu, .menu-cnt > ul li ul li:hover + li > a, nav .menu-right .custom-area, .input-text, .input-select, .input-textarea, .light .glide__bullets > button, .light .text-list-line li hr,
 .media-box-half .extra-field + p, .album-box .caption, .media-box-reveal .caption, .cnt-box-top .extra-field, .icon-links-grid a, .cnt-box-testimonials-bubble > p, .light .table-border td {
-    border-color: #03BFCB
+    border-color: rgb(0, 71, 103)
 }
 
 .cnt-call, .comment-list li, .timeline .panel, .header-base, main > section.section-base.section-color, .section-color .input-text, .section-color .input-select, .section-color .input-textarea {
@@ -128,7 +128,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .section-home-slider h2 span, footer.light ul li > a, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .social-colors.icon-links-grid a:hover i {
-    color: rgb(0, 71, 103); !important;
+    color: #004767; !important;
 }
 
 @media (max-width: 991.98px) {
@@ -138,7 +138,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a {
-    background-color: DarkSlateBlue;
+    background-color: rgb(75, 134, 161);
 }
 
 .menu-cnt > ul > li > a:first-child {
@@ -146,7 +146,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .cnt-box.boxed .caption, .cnt-box-side-icon.boxed > i, .cnt-box-top-icon.boxed > i, .boxed-area, .cnt-box-top-icon.boxed, .cnt-box-testimonials-bubble > p, .section-color .icon-box i {
-    background-color: DarkSlateBlue; /* box do menu superior quando focado??? */
+    background-color: rgb(75, 134, 161); /* box do menu superior quando focado??? */
 }
 
 .light .glide__bullets > button {
@@ -378,7 +378,7 @@ hr.space-45 {
 .menu-cnt > ul > li.nav-label > a span {
     font-weight: 700;
     padding-right: 5px;
-    color: #DarkSlateBlue;
+    color: rgb(75, 134, 161);
     font-size: 13px;
 }
 
@@ -2217,7 +2217,7 @@ button.btn-xs, button.btn-sm {
 }
 
 .table-grid td, .table-border td, .table-border th {
-    border-color: rgb(188, 206, 216);
+    border-color: rgb(244, 247, 248); /*figuras 1s banner*/
 }
 
 .table-grid td > h3 {
