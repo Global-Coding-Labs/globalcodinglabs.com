@@ -33,7 +33,7 @@ main > section.section-base.section-color.light, .section-color.light .input-tex
 }
 
 .boxed-area.light, .media-box-full .caption {
-    background-color: rgb(0, 71, 103) !important;
+    background-color: rgb(5, 137, 199) !important;
 }
 
 h1, h2, h3, h4, h5, h6, .cnt-call .caption .btn-text, .section-color .icon-box i, .counter .value span, .breadcrumb li a, .step-item > span, .cnt-pricing-table .price span, .cnt-pricing-table .top-area p,
@@ -88,7 +88,7 @@ body > header h2, .breadcrumb li:last-child a, .cnt-box-side .extra-field, .cnt-
 .album-title > a:before, .accordion-list > li.active > a, .media-box.media-box-reveal .caption h3, .cnt-box-top .extra-field, .list-nav a:first-child:before, .list-nav a:last-child:before,
 .cnt-box-testimonials-bubble .thumb-bar span:last-child, .cnt-box-side-icon > i, .countdown-vertical [data-time] > div > span:first-child, .countdown-horizontal [data-time] > div > span:first-child,
 .social-feed a {
-    color: ##2f4f4f
+    color: #2f4f4f
 }
 
 footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover > a, .section-home-slider [data-to], .section-home-slider h2, .light .title p, body > header.light h2,
@@ -119,7 +119,7 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
 }
 
 .cnt-call, .comment-list li, .timeline .panel, .header-base, main > section.section-base.section-color, .section-color .input-text, .section-color .input-select, .section-color .input-textarea {
-    background-color: rgb(228, 237, 243);
+    background-color: rgb(8, 23, 32); /* collor for the background strips(banners) */
 }
 
 .menu-cnt > ul > li > a, .menu-cnt, nav .lan-menu > li > a, i.scroll-top-btn, .cart-item h5, .shop-menu p, .shop-menu .cart-buttons a, .icon-box i, .counter i, .media-box .caption h2, .media-box .caption p,
@@ -128,12 +128,12 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .section-home-slider h2 span, footer.light ul li > a, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .social-colors.icon-links-grid a:hover i {
-    color: #A8A8FF !important;
+    color: rgb(0, 71, 103); !important;
 }
 
 @media (max-width: 991.98px) {
     .light .dropdown ul li:hover > a, .light .shop-menu .cart-buttons a {
-        color: #A8A8FF !important;
+        color: #616169 !important;
     }
 }
 
