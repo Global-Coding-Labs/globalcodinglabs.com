@@ -23,13 +23,17 @@ body, p, a, .btn-text, .input-text, .input-select, .input-textarea, .cnt-box-blo
     color: rgb(5, 137, 199);
 }
 
-body > nav, footer, .progress-bar > div, .progress-bar > div span, .shop-menu-cnt .shop-menu, i.scroll-top-btn, .tab-nav li a:before, .tab-nav li a:after, .btn:not(.btn-border):hover,
+footer, .progress-bar > div, .progress-bar > div span, .shop-menu-cnt .shop-menu, i.scroll-top-btn, .tab-nav li a:before, .tab-nav li a:after, .btn:not(.btn-border):hover,
 section .cnt-box.boxed.light .caption, .img-box-caption span, .cnt-box-badge .badge, .cnt-box-blog-side .blog-date, .menu-fixed.scroll-menu, .cnt-box-blog-top .blog-date,
 .dropdown ul:not(.icon-list) li:hover > a, .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, .glide__bullets > button:hover, .glide__bullets > button.glide__bullet--active,
 main > section.section-base.section-color.light, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .counter i,
 .cnt-box-side-icon.boxed.light > i, .cnt-box-top-icon.boxed.light > i, .media-box-half, .album-box .caption, .album-box .img-box, .icon-box i, .media-box.media-box-reveal .caption,
 .media-box-full:before, .list-nav a.list-archive:hover, .header-base h2, .list-tags a, .img-box:before, .menu-mini, .menu-side, .btn-video:empty:hover, .tweets_txt {
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(150, 150, 150);  
+}
+
+body > nav {
+    background-color: #FFF;
 }
 
 .boxed-area.light, .media-box-full .caption {
@@ -128,7 +132,7 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
 }
 
 .section-home-slider h2 span, footer.light ul li > a, .section-color.light .input-text, .section-color.light .input-select, .section-color.light .input-textarea, .social-colors.icon-links-grid a:hover i {
-    color: #004767; !important;
+    color: #004767 !important;
 }
 
 @media (max-width: 991.98px) {
