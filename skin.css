@@ -399,16 +399,16 @@ hr.space-45 {
 }
 
 .section-overflow-top > .container > .cnt-box-side > .img-box, .section-overflow-top > .container > .cnt-box-side > .caption {
-    width: 50%;
+    width: 30%;
 }
 
 .section-overflow-top > .container > .cnt-box-side > .caption {
-    padding: 60px 30px;
+    padding: 30px 30px;
 }
 
 .section-overflow-top > .container > .cnt-box-side .caption h2 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .section-overflow-top .logo-area {
@@ -446,7 +446,7 @@ hr.space-45 {
 }
 
 .section-home-slider .slider {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 
 main > section.section-base.section-home-slider {
@@ -454,7 +454,7 @@ main > section.section-base.section-home-slider {
 }
 
 .section-home-slider .slider li > .img-box {
-    margin: 15px 15px 15px 150px;
+    margin: 15px 15px 15px 100px;
     box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.16);
 }
 
