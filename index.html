@@ -1,696 +1,877 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Global Coding Labs | Technology And Business Software Development</title>
-    <meta name="description" content="">
-    <link rel="stylesheet" href="themekit/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="themekit/css/style.css">
-    <link rel="stylesheet" href="themekit/css/glide.css">
-    <link rel="stylesheet" href="themekit/css/magnific-popup.css">
-    <link rel="stylesheet" href="themekit/css/content-box.css">
-    <link rel="stylesheet" href="themekit/css/contact-form.css">
-    <link rel="stylesheet" href="themekit/css/social.css">
-    <link rel="stylesheet" href="skin.css">
-    <link rel="icon" href="media/logos/gcl_icon_logo.png">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global Coding Labs</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="themekit/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="themekit/css/style.css" />
+    <link rel="stylesheet" href="themekit/css/glide.css" />
+    <link rel="stylesheet" href="themekit/css/magnific-popup.css" />
+    <link rel="stylesheet" href="themekit/css/content-box.css" />
+    <link rel="stylesheet" href="themekit/css/media-box.css" />
+    <link rel="stylesheet" href="themekit/css/contact-form.css" />
+    <link rel="stylesheet" href="skin.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="icon" href="media/favicon.png" />
+  </head>
+  <body>
     <div id="preloader"></div>
-    <nav class="menu-subtitle" data-menu-anima="fade-in">
-        <div class="container">
-            <div class="menu-brand">
-                <a href="#">
-                    <img class="logo-default scroll-hide" src="media/logos/GCL-logos_Logo-scaled.png" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/logos/GCL-logos_Logo-scaled.png" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/logos/GCL-logos_Logo-scaled.png" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/logos/GCL-logos_Logo-scaled.png" alt="logo" />
-                </a>
-            </div>
-            <i class="menu-btn"></i>
-            <div class="menu-cnt">
-                <ul id="main-menu">
-                    <li class="dropdown">
-                        <a href="#">Info <span> About us </span> </a>
-                        <ul>
-                            <li><a href="about.html">About us</a></li>
-                        </ul>    
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Services <span> Our job </span> </a>
-                        <ul>
-                           	        <li><a href="webDevelopment.html"> Business page and web development </a></li> <!-- a construir-->
-                                    <li><a href="apps.html">Mobile Apps</a></li> <!-- a construir--->
-                                    <li><a href="consulting.html"> IT Consulting </a></li>                <!-- a construir--->
-                                    <li><a href="erpCms.html"> ERP and CMS Development </a></li>                <!-- a construir--->
-                                    <li><a href="dedicatedDevelopment.html"> Dedicated Development </a></li>                <!-- a construir--->
-                                    <li><a href="supportOutsourcing.html"> Support Outsourcing </a></li>                <!-- a construir--->
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="clients.html">Our Clients <span> Client's list </span> </a>
-                    </li>
-                    <li>
-                       <a href="contacts.html"> Contacts <span> Get in touch</span></a>
-                    </li>
-           
-                      <form role="search" method="get" id="searchform" class="search-btn">
-                        <div class="search-box-menu">
-                            <input type="text" placeholder="Search ...">
-                            <i></i>
-                        </div>
-                    </form>
-                    <ul class="lan-menu">
-                        <li class="dropdown">
-                            <a href="#"><img src="media/en.png" alt="lang" />EN </a>
-                            <ul>
-                                <li><a href="#"><img src="media/logos/is_flag.png" alt="lang" />IS</a>
-                                </li>
-                            </ul>
-                        </li>
-                        </div>
-                </ul>
-           </div>
+    <nav
+      class="menu-classic menu-fixed menu-transparent light align-right"
+      data-menu-anima="fade-in"
+    >
+      <div class="container">
+        <div class="menu-brand">
+          <a href="#">
+            <img
+              class="logo-default scroll-hide"
+              src="media/logo.png"
+              alt="logo"
+            />
+            <img
+              class="logo-retina scroll-hide"
+              src="media/logo.png"
+              alt="logo"
+            />
+            <img
+              class="logo-default scroll-show"
+              src="media/logo.png"
+              alt="logo"
+            />
+            <img
+              class="logo-retina scroll-show"
+              src="media/logo.png"
+              alt="logo"
+            />
+          </a>
         </div>
+        <i class="menu-btn"></i>
+        <div class="menu-cnt">
+          <ul id="main-menu">
+            <li>
+              <a href="#"  id="contat-us-menu" ><i class="fa-solid fa-envelope"></i> Contact Us</a>
+            </li>
+            <!-- <li class="dropdown">
+              <a href="#">Home</a>
+              <ul>
+                <li><a href="index.html">Home one</a></li>
+                <li><a href="index-2.html">Home two</a></li>
+                <li><a href="index-3.html">Home three</a></li>
+              </ul>
+            </li> -->
+            <!-- <li class="dropdown">
+              <a href="#">Pages</a>
+              <ul>
+                <li class="dropdown-submenu">
+                  <a>About</a>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="history.html">History</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="#">Services</a>
+                  <ul>
+                    <li><a href="service-1.html">Security audits</a></li>
+                    <li>
+                      <a href="service-2.html">Artificial intelligence</a>
+                    </li>
+                    <li><a href="service-3.html">Bots and support</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a>Others</a>
+                  <ul>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="faq.html">Faq</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="career.html">Career</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="elements/components/buttons.html">Elements</a>
+                </li>
+              </ul>
+            </li> -->
+            <!-- <li class="dropdown">
+              <a href="#">Projects</a>
+              <ul>
+                <li class="dropdown-submenu">
+                  <a>Projects list</a>
+                  <ul>
+                    <li><a href="projects-1.html">Projects one</a></li>
+                    <li><a href="projects-2.html">Projects two</a></li>
+                    <li><a href="projects-3.html">Projects three</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a>Project details</a>
+                  <ul>
+                    <li><a href="project-1.html">Project details one</a></li>
+                    <li><a href="project-2.html">Project details two</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li> -->
+            <!-- <li class="dropdown">
+              <a href="#">Blog</a>
+              <ul>
+                <li><a href="blog-1.html">Classic</a></li>
+                <li><a href="blog-2.html">Grid</a></li>
+                <li><a href="blog-3.html">Masonry</a></li>
+                <li class="dropdown-submenu">
+                  <a>Posts</a>
+                  <ul>
+                    <li><a href="post-1.html">Post one</a></li>
+                    <li><a href="post-2.html">Post two</a></li>
+                    <li><a href="post-3.html">Post three</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">Contacts</a>
+              <ul>
+                <li><a href="contacts-1.html">Contacts one</a></li>
+                <li><a href="contacts-2.html">Contacts two</a></li>
+                <li><a href="contacts-3.html">Contacts three</a></li>
+              </ul>
+            </li>
+          </ul> -->
+          <!-- <div class="menu-right">
+            <div class="shop-menu-cnt">
+              <i></i>
+              <div class="shop-menu">
+                <ul class="shop-cart">
+                  <li class="cart-item">
+                    <img src="http://via.placeholder.com/300x208" alt="" />
+                    <div class="cart-content">
+                      <h5>Adobe XD Tutorial</h5>
+                      <span class="cart-quantity"> 1 x $99.00 </span>
+                    </div>
+                  </li>
+                  <li class="cart-item">
+                    <img src="http://via.placeholder.com/300x208" alt="" />
+                    <div class="cart-content">
+                      <h5>Professional Adobe XD</h5>
+                      <span class="cart-quantity"> 1 x $99.00 </span>
+                    </div>
+                  </li>
+                </ul>
+                <p class="cart-total">Subtotal: <span>$299.00</span></p>
+                <p class="cart-buttons">
+                  <a href="#" class="cart-view">View Cart</a>
+                  <a href="#" class="cart-checkout">Checkout</a>
+                </p>
+              </div>
+            </div> -->
+            <!-- <form role="search" method="get" id="searchform" class="search-btn">
+              <div class="search-box-menu">
+                <input type="text" placeholder="Search ..." />
+                <i></i>
+              </div>
+            </form> -->
+            <!-- <ul class="lan-menu">
+              <li class="dropdown">
+                <a href="#"><img src="media/en.png" alt="lang" />EN </a>
+                <ul>
+                  <li>
+                    <a href="#"><img src="media/it.png" alt="lang" />IT</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="media/es.png" alt="lang" />ES</a>
+                  </li>
+                </ul>
+              </li>
+            </ul> -->
+            <ul class="lan-menu location-menu">
+              <li >
+                <a href="#">
+                  <img src="media/iceland.png" alt="lang" />
+                  <img src="media/european-union.png" alt="lang" />
+                  <img src="media/united-states.png" alt="lang" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
     <main>
-        <section class="section-image ken-burn-center" data-parallax="scroll" data-image-src="media/backgroundimagemgclalready.jpg"> <!-- foto do fundo / back ground picture -->
-            <div class="container">
-                 <div class="row align-items-center">  <!-- Aproximação da imagem de background -->
-                    <div class="col-lg-6">
-                        <hr class="space-xs" />
-                        <h3 class="text-color-2">
-                            <div align="left">
-                            CREDIBILITY AND EXPERTISE
-                            </div>
-                        </h3>
-                        <h1 class="text-uppercase">Make it happen!</h1>
-                        <p>
-                            We have the required expertise to provide highlight your business among the others.
-                        </p>
-                        <a href="#"  class="btn btn-sm btn-icon btn-anima">Contact us</a>
-                        <hr class="space-lg" />
-                    </div>
-                    <div class="col-lg-6 hidden-md">
-                        <img src="media/mk-1.png" alt="" />
-                    </div>
-                </div>
+      <section class="section-video section-home-slider light">
+        <div class="section-overlay"></div>
+        <video
+          autoplay
+          loop
+          muted
+          poster="http://via.placeholder.com/1920x1080"
+        >
+          <source src="media/video.mp4" type="video/mp4" />
+        </video>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <hr class="space" />
+          <div class="row">
+            <div class="col-lg-7">
+              <ul
+                class="slider"
+                data-options="type:slider,perView:1,arrows:true,nav:true,autoplay:3500"
+                data-anima="fade-right"
+                data-time="2000"
+              >
+                <li>
+                  <span class="slider-title">Empowering Businesses with <b>Tailored IT Solutions</b></span>
+                </li>
+                <li>
+                  <span class="slider-title">Bringing Your <b>Startup Vision to Life</b> at an Affordable Price</span>
+                </li>
+                <li>
+                  <span class="slider-title">Accelerate Your Projects with our <b>Outsourced Teams</b></span>
+                </li>
+                <!-- <li>
+                  <h1>Spend your time growing your skills</h1>
+                  <a class="img-box" href="#">
+                    <img src="media/slider-iamge-bg.jpg" alt="" height="300px" />
+                  </a>
+                </li>
+                <li>
+                  <h1>We improve the user experience</h1>
+                  <a class="img-box" href="#">
+                    <img src="media/slider-iamge-bg.jpg" alt="" height="300px" />
+                  </a>
+                </li> -->
+              </ul>
             </div>
-        </section>
-        <section class="section-base section-color section-overflow-top">
-            <div class="container">
-                <div class="cnt-box cnt-call">
-                    <div class="caption">
-                        <h2>
-                            Free consultation for your business
-                        </h2>
-                        <p>
-                            
-
-Consult our services without contracting commitment and without insisting on contracting, contact us for a consultation about the desired service and be surprised with what we can do and for how much we can do.
-                        </p>
-                        <a href="#" class="active btn-text">Get it now</a>
-                    </div>
-                </div>
-                <table class="table table-grid table-border align-center table-logos table-6-md">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="media/imagecall01fronthome.png" max width=374px max height=103px alt="Solutions" />
-                                <p>
-                                    We deliver customized solutions according to your business project and size!
-                                </p>
-                            </td>
-                            <td>
-                                <img src="media/imagecall02fronthome.jpg" max width=374px max height=133px alt="Startup" />
-                                <p>
-                                    Speed up your startup with scalable and appropriate solutions for your company growth!
-                                </p>
-                            </td>
-                            <td>
-                                <img src="media/imagecall03fronthome.jpg" max width=374px max height=133px alt="Startup" />
-                                <p> 
-                                    Outsourcing doesn't mean leaving behind team work, it means cost reducing and operating lightly to improve your business.
-                                </p>
-                            </td>
-                            <td>
-                                <img src="media/imagecall04fronthome.jpg" max width=374px max height=133px alt="Startup" />
-                                <p>
-                                    Focus on growing the core of your business - We can help you make it happen!
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <section class="section-base">
-            <div class="container">
-                <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <a class="img-box btn-video lightbox" data-lightbox-anima="fade-top" href="https://www.youtube.com/watch?v=Lb4IcGF5iTQ">
-                            <img src="http://via.placeholder.com/800x530" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="title">
-                            <h2>We are placemaker</h2>
-                            <p>About us</p>
-                        </div>
-                        <p>
-                               Our development is client oriented. Based on our technical expertise, we provide IT and support outsourcing and software development in a simple, cost-benefits solutions and quick ways to help you improve your business. 
-                               We build modern and innovative software that supports your business! Contact us and schedule a call with one of our consultants!.
-                        </p>
-                        <table class="table table-grid table-border align-left table-10">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <p class="text-bold text-uppercase">50 members</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-bold text-uppercase">350 clients</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-bold text-uppercase">10+ countries</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <a href="#" class="btn btn-xs">Explore more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-base section-color">
-            <div class="container">
-                <div class="row" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <div class="title">
-                            <h2>What we do better</h2>
-                            <p>Our skills</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 align-right align-left-md">
-                        <hr class="space-sm hidden-md">
-                        <a href="#" class="btn-text active">All services</a>
-                    </div>
-                </div>
-                <hr class="space" />
-                <div class="row" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <div class="grid-list" data-columns="2" data-columns-xs="1">
-                            <div class="grid-box">
-                                <div class="grid-item">
-                                    <div class="icon-box icon-box-left">
-                                        <i class="im-bar-chart4"></i>
-                                        <div class="caption">
-                                            <h3>Top hardware</h3>
-                                            <p>Lorem ipsum dolore</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid-item">
-                                    <div class="icon-box icon-box-left">
-                                        <i class="im-financial"></i>
-                                        <div class="caption">
-                                            <h3>Regulated</h3>
-                                            <p>Lorem ipsum dolore</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid-item">
-                                    <div class="icon-box icon-box-left">
-                                        <i class="im-fingerprint-2"></i>
-                                        <div class="caption">
-                                            <h3>Secure</h3>
-                                            <p>Lorem ipsum dolore</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid-item">
-                                    <div class="icon-box icon-box-left">
-                                        <i class="im-monitor-phone"></i>
-                                        <div class="caption">
-                                            <h3>Software</h3>
-                                            <p>Lorem ipsum dolore</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <hr class="space-sm visible-md" />
-                        <div class="progress-bar">
-                            <h4>Social technology</h4>
-                            <div>
-                                <div data-progress="85">
-                                    <span class="counter" data-to="85" data-speed="2000" data-unit="%">85%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <hr class="space-sm" />
-                        <hr class="space-xs" />
-                        <div class="progress-bar">
-                            <h4>Hardware research</h4>
-                            <div>
-                                <div data-progress="70">
-                                    <span class="counter" data-to="70" data-speed="2000" data-unit="%">70%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-block section-block-right section-block-full">
-            <div class="block-media">
-                <div class="image" data-parallax="scroll" data-image-src="media/backgroundcollorimage2.jpg" <span>Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Austin Distel</a> on <a href="https://unsplash.com/s/photos/profit?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>"></div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="title">
-                            <h2>What we do better</h2>
-                            <p>Our skills</p>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore eta dolore magna aliqua.
-                            Utenim ad minimo.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <img data-anima="fade-bottom" data-time="1000" class="block-image" src="http://via.placeholder.com/445x472" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-base section-color light">
-            <div class="container">
-                <div class="row" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-4">
-                        <div class="title">
-                            <h2>Subscribe now to<br />our newsletter</h2>
-                            <p>Stay tuned</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <form action="themekit/scripts/contact-form/contact-form.php" class="form-box form-ajax form-inline" method="post" data-email="example@domain.com">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <p>Your name</p>
-                                    <input id="name" name="name" placeholder="Name" type="text" class="input-text" required="">
-                                </div>
-                                <div class="col-lg-4">
-                                    <p>Your email</p>
-                                    <input id="email" name="email" placeholder="Email" type="email" class="input-text" required="">
-                                </div>
-                                <div class="col-lg-4">
-                                    <button class="btn btn-xs" type="submit">Subscribe</button>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-checkbox">
-                                        <input type="checkbox" id="check" name="check" value="check" required="">
-                                        <label for="check">You accept the terms and the privacy policy.</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="success-box">
-                                <div class="alert alert-success">Congratulations. You're now a subscriber!</div>
-                            </div>
-                            <div class="error-box">
-                                <div class="alert alert-warning">Error, please retry. Your message has not been sent.</div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-base">
-            <div class="container">
-                <div class="album" data-album-anima="fade-bottom" data-columns-md="1" data-columns-sm="1" data-anima="fade-bottom" data-time="1000">
-                    <div class="album-list">
-                        <div class="album-box">
-                            <a href="#" class="img-box img-scale">
-                                <img src="http://via.placeholder.com/800x500" alt="">
-                            </a>
-                            <div class="caption">
-                                <h3>Team</h3>
-                            </div>
-                        </div>
-                        <div class="album-box">
-                            <a href="#" class="img-box img-scale">
-                                <img src="http://via.placeholder.com/800x500" alt="">
-                            </a>
-                            <div class="caption">
-                                <h3>Headquarters</h3>
-                            </div>
-                        </div>
-                        <div class="album-box">
-                            <a href="#" class="img-box img-scale">
-                                <img src="http://via.placeholder.com/800x500" alt="">
-                            </a>
-                            <div class="caption">
-                                <h3>Clients</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cnt-album-box">
-                        <p class="album-title"><span>...</span> <a>Album list</a></p>
-                        <div class="album-item">
-                            <div class="grid-list list-gallery" data-lightbox-anima="fade-top" data-columns="3" data-columns-md="2">
-                                <div class="grid-box">
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img src="http://via.placeholder.com/800x500" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img src="http://via.placeholder.com/800x500" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img src="http://via.placeholder.com/800x500" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="album-item">
-                            <div class="grid-list list-gallery" data-lightbox-anima="fade-top" data-columns="3" data-columns-md="2">
-                                <div class="grid-box">
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="album-item">
-                            <div class="grid-list list-gallery" data-lightbox-anima="fade-top" data-columns="3" data-columns-md="2">
-                                <div class="grid-box">
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                    <div class="grid-item">
-                                        <a class="img-box" href="http://via.placeholder.com/800x500">
-                                            <img alt="" src="http://via.placeholder.com/800x500">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-base section-color">
-            <div class="container">
-                <div class="row align-items-center" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <hr class="space-xs" />
-                        <img src="http://via.placeholder.com/654x456" alt="" />
-                    </div>
-                    <div class="col-lg-6">
-                        <hr class="space-sm" />
-                        <div class="title">
-                            <h2>Innovative dashboard</h2>
-                            <p>Analytics tools</p>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                            Utenim ad minim veniam quis nostrud exercitation ullamco.
-                        </p>
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <ul class="accordion-list">
-                                    <li>
-                                        <a href="#">What's included ?</a>
-                                        <div class="content">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo gna aliqua.
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#">What's not included ?</a>
-                                        <div class="content">
-                                            <p>
-                                                Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo gna aliqua.
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-5">
-                                <hr class="space space-25" />
-                                <a href="#" class="btn full-width btn-xs">Contact us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="space" />
-                <div class="row align-items-center" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <hr class="space-sm" />
-                        <div class="title">
-                            <h2>Available everywhere</h2>
-                            <p>Mobile ready</p>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                            Utenim ad minim veniam quis nostrud exercitation ullamco.
-                        </p>
-                        <table class="table table-grid table-border table-10 align-left">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="icon-box icon-box-left">
-                                            <i class="im-dropbox"></i>
-                                            <div class="caption">
-                                                <h3>Mobile</h3>
-                                                <p>Ipsum dolor sitero</p>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="icon-box icon-box-left">
-                                            <i class="im-earphones"></i>
-                                            <div class="caption">
-                                                <h3>Thin and smart</h3>
-                                                <p>Ipsum dolor sitero</p>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="http://via.placeholder.com/590x411" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-base">
-            <div class="container">
-                <table class="table table-grid table-border align-center table-logos table-full-sm" data-anima="fade-bottom" data-time="1000">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="http://via.placeholder.com/374x103" alt="" />
-                            </td>
-                            <td>
-                                <img src="http://via.placeholder.com/374x103" alt="" />
-                            </td>
-                            <td>
-                                <img src="http://via.placeholder.com/374x103" alt="" />
-                            </td>
-                            <td>
-                                <img src="http://via.placeholder.com/374x103" alt="" />
-                            </td>
-                            <td>
-                                <img src="http://via.placeholder.com/374x103" alt="" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-        <section class="section-base section-color">
-            <div class="container">
-                <div class="row" data-anima="fade-bottom" data-time="1000">
-                    <div class="col-lg-6">
-                        <div class="title">
-                            <h2>Afforable services</h2>
-                            <p>Our services</p>
-                        </div>
-                    </div>
-                </div>
-                <hr class="space" />
-                <div class="grid-list pagination-top-right" data-columns="3" data-columns-md="2" data-columns-sm="1" data-anima="fade-bottom" data-time="1000">
+            <div class="col-lg-5">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div
+                    class="grid-list gap-18"
+                    data-columns="1"
+                    data-columns-md="3"
+                    data-columns-sm="3"
+                    data-columns-xs="1"
+                  >
                     <div class="grid-box">
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Web development</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
+                      <div class="grid-item">
+                        <div
+                          class="counter counter-vertical counter-icon"
+                          data-anima="fade-right"
+                          data-time="3000"
+                        >
+                          <div>
+                            <h3>Clients</h3>
+                            <div class="value">
+                              <span data-to="49" data-speed="1000"></span>
+                              <span>+</span>
                             </div>
+                          </div>
                         </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Security research</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
+                      </div>
+                      <div class="grid-item">
+                        <div
+                          class="counter counter-vertical counter-icon"
+                          data-anima="fade-right"
+                          data-time="3000"
+                        >
+                          <div>
+                            <h3>Projects</h3>
+                            <div class="value">
+                              <span data-to="98" data-speed="1000"></span>
+                              <span>+</span>
                             </div>
+                          </div>
                         </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Performance checks</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
+                      </div>
+                      <div class="grid-item">
+                        <div
+                          class="counter counter-vertical counter-icon"
+                          data-anima="fade-right"
+                          data-time="3000"
+                        >
+                          <div>
+                            <h3>Countries</h3>
+                            <div class="value">
+                              <span data-to="5" data-speed="1000"></span>
+                              <span>+</span>
                             </div>
+                          </div>
                         </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Legal contracts</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Blockchain networks</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid-item">
-                            <div class="cnt-box cnt-box-top boxed">
-                                <a href="#" class="img-box"><img src="http://via.placeholder.com/800x500" alt="" /></a>
-                                <div class="caption">
-                                    <h2>Social marketing</h2>
-                                    <p>
-                                        Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod tempore.
-                                    </p>
-                                    <a class="btn-text" href="#">Learn more</a>
-                                </div>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                    <div class="list-pagination">
-                        <ul class="pagination" data-page-items="3" data-page-items-md="2" data-page-items-sm="1" data-pagination-anima="fade-bottom"></ul>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-lg-8" data-anima="fade-right" data-time="4000">
+                  <h2><span>Our</span> Mission</h2>
+                  <p>
+                    At Global Coding Labs, we specialize in crafting affordable, high-quality software solutions tailored to your unique business needs.
+                  </p>
+                  <a href="#" class="btn btn-sm">Contact us</a>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          <hr class="space" />
+          <hr class="space" />
+        </div>
+      </section>
+      <section class="section-base section-color section-overflow-top">
+        <div class="container">
+          <div class="grid-list" data-columns="3" data-columns-md="1">
+            <div class="grid-box">
+              <div class="grid-item">
+                <div class="cnt-box cnt-box-info boxed" data-href="#">
+                  <a href="#" class="img-box"
+                    ><img src="media/custom-software-development.jpg" alt=""
+                  /></a>
+                  <div class="caption">
+                    <h2>Custom Software Development</h2>
+                    <div class="cnt-info">
+                      <div><span>Price</span><span>$50</span></div>
+                      <div><span>Type</span><span>Software</span></div>
+                      <div><span>Client</span><span>Private</span></div>
+                    </div>
+                    <p>
+                      Dive into the world of custom software solutions designed to fit your unique business needs. From concept to code, our agile approach ensures your vision comes to life efficiently and effectively, driving your business towards digital excellence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="cnt-box cnt-box-info boxed" data-href="#">
+                  <a href="#" class="img-box"
+                    ><img src="media/expertise-at-your-fingertip.jpg" alt=""
+                  /></a>
+                  <div class="caption">
+                    <h2>Expertise at Your Fingertips</h2>
+                    <div class="cnt-info">
+                      <div><span>Price</span><span>$80</span></div>
+                      <div><span>Type</span><span>App</span></div>
+                      <div><span>Client</span><span>Private</span></div>
+                    </div>
+                    <p>
+                      Elevate your project with our software architectural consultancy and access a world-class development team on demand. We provide the expertise and resources to fill the gaps in your project, ensuring seamless progress and innovation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="cnt-box cnt-box-info boxed" data-href="#">
+                  <a href="#" class="img-box"
+                    ><img src="media/world-class-solution.jpg" alt=""
+                  /></a>
+                  <div class="caption">
+                    <h2>World-Class Solutions, Localized Insights</h2>
+                    <div class="cnt-info">
+                      <div><span>Price</span><span>$50</span></div>
+                      <div><span>Type</span><span>App</span></div>
+                      <div><span>Client</span><span>Business</span></div>
+                    </div>
+                    <p>
+                      Benefit from our global reach and strong ties with US/European companies. Our international expertise combined with a deep understanding of local markets ensures your software solution is not just effective, but also culturally and contextually relevant.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-fit-lg" data-anima="fade-bottom" data-time="1000">
+            <div class="col-lg-6">
+              <ul class="slider light" data-options="arrows:false,nav:false">
+                <li>
+                  <a
+                    class="img-box img-box-caption lightbox"
+                    href="media/profile-ceo2.jpeg"
+                    data-lightbox-anima="fade-top"
+                  >
+                    <img src="media/profile-ceo.jpeg" alt="" />
+                    <span>Gustavo Sizílio</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="title">
+                <h2>Our values and goals</h2>
+                <p>About us</p>
+              </div>
+              <p>
+                At Global Coding Labs, our core values are innovation, integrity, and collaboration. We're committed to making high-quality software development accessible to all businesses, fostering growth through agile solutions and ethical partnerships. Our goal is to empower our clients' success in the digital landscape, ensuring excellence in every project we undertake.
+              </p>
+              <div class="box-sign">
+                <img alt="sign" src="media/sign-dark.png" />
+                <b>Gustavo Sizílio</b>
+                <span>Founder &amp; CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section-image light"
+        data-parallax="scroll"
+        data-image-src="media/bh-parallax.jpg"
+      >
+        <div class="container">
+          <div class="row" data-anima="fade-bottom" data-time="1000">
+            <div class="col-lg-6">
+              <div class="title">
+                <h2>The state of art service</h2>
+                <p>About us</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elitsed do
+                eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                Utenim ad minim veniam quis nostrud exercitation ullamco
+                laboris.
+              </p>
+              <a href="#" class="btn-text active">All services</a>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="grid-list gap-40"
+                data-columns="2"
+                data-columns-xs="1"
+              >
+                <div class="grid-box">
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-pen"></i>
+                      <div class="caption">
+                        <h3>Regulated</h3>
+                        <p>Lorem ipsum amete</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-security-camera"></i>
+                      <div class="caption">
+                        <h3>Secure</h3>
+                        <p>Lorem ipsum amete</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-gears"></i>
+                      <div class="caption">
+                        <h3>Top hardware</h3>
+                        <p>Lorem ipo dolore mio</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-data-refresh"></i>
+                      <div class="caption">
+                        <h3>Updated</h3>
+                        <p>Lorem ipsum amete</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-support"></i>
+                      <div class="caption">
+                        <h3>Premium team</h3>
+                        <p>Lorem ipo dolore mio</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="icon-box icon-box-left">
+                      <i class="im-coins"></i>
+                      <div class="caption">
+                        <h3>Money back</h3>
+                        <p>Lorem ipsum amete</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-base section-color">
+        <div class="container">
+          <div class="title" data-anima="fade-bottom" data-time="1000">
+            <h2>What we do better</h2>
+            <p>Core services</p>
+          </div>
+          <hr class="space-xs" />
+          <div
+            class="tab-box tab-top-right"
+            data-tab-anima="fade-bottom"
+            data-anima="fade-bottom"
+            data-time="1000"
+          >
+            <ul class="tab-nav">
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Fintech</a></li>
+              <li class="active"><a href="#">Software</a></li>
+            </ul>
+            <div class="panel active">
+              <div
+                class="grid-list"
+                data-columns="4"
+                data-columns-lg="2"
+                data-columns-sm="1"
+              >
+                <div class="grid-box">
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-monitor-phone"></i>
+                      <div class="caption">
+                        <h2>Smart softwares</h2>
+                        <p>Duis aute irure dolor in reprehenderita ineto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-bar-chart2"></i>
+                      <div class="caption">
+                        <h2>Total security</h2>
+                        <p>Lorem consectetur adipi elitsed tempono.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-medal"></i>
+                      <div class="caption">
+                        <h2>Awards winners</h2>
+                        <p>Ariento mesfato prodo arte e eli manifesto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-business-man"></i>
+                      <div class="caption">
+                        <h2>Great experience</h2>
+                        <p>Lorem consectetur adipiscing elitsed pruoa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div
+                class="grid-list"
+                data-columns="4"
+                data-columns-lg="2"
+                data-columns-sm="1"
+              >
+                <div class="grid-box">
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-monitor-phone"></i>
+                      <div class="caption">
+                        <h2>Smart softwares</h2>
+                        <p>Duis aute irure dolor in reprehenderita ineto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-bar-chart2"></i>
+                      <div class="caption">
+                        <h2>Total security</h2>
+                        <p>Lorem consectetur adipi elitsed tempono.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-medal"></i>
+                      <div class="caption">
+                        <h2>Awards winners</h2>
+                        <p>Ariento mesfato prodo arte e eli manifesto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-business-man"></i>
+                      <div class="caption">
+                        <h2>Great experience</h2>
+                        <p>Lorem consectetur adipiscing elitsed pruoa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div
+                class="grid-list"
+                data-columns="4"
+                data-columns-lg="2"
+                data-columns-sm="1"
+              >
+                <div class="grid-box">
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-monitor-phone"></i>
+                      <div class="caption">
+                        <h2>Smart softwares</h2>
+                        <p>Duis aute irure dolor in reprehenderita ineto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-bar-chart2"></i>
+                      <div class="caption">
+                        <h2>Total security</h2>
+                        <p>Lorem consectetur adipi elitsed tempono.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-medal"></i>
+                      <div class="caption">
+                        <h2>Awards winners</h2>
+                        <p>Ariento mesfato prodo arte e eli manifesto.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-item">
+                    <div class="cnt-box cnt-box-top-icon boxed">
+                      <i class="im-business-man"></i>
+                      <div class="caption">
+                        <h2>Great experience</h2>
+                        <p>Lorem consectetur adipiscing elitsed pruoa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-base">
+        <div class="container">
+          <div
+            class="row align-items-center"
+            data-anima="fade-bottom"
+            data-time="1000"
+          >
+            <div class="col-lg-6">
+              <img src="http://via.placeholder.com/654x456" alt="" />
+            </div>
+            <div class="col-lg-6">
+              <div class="title">
+                <h2>Innovative dashboard</h2>
+                <p>Analytics tools</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elitsed do
+                eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                Utenim ad minim veniam quis nostrud exercitation ullamco.
+              </p>
+              <a href="#" class="btn btn-xs">Learn more</a>
+            </div>
+          </div>
+          <hr class="space-sm" />
+          <hr class="space visible-md" />
+          <div
+            class="row align-items-center"
+            data-anima="fade-bottom"
+            data-time="1000"
+          >
+            <div class="col-lg-6">
+              <div class="title">
+                <h2>Available everywhere</h2>
+                <p>Mobile ready</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipiscing elitsed do
+                eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                Utenim ad minim veniam quis nostrud exercitation ullamco.
+              </p>
+              <a href="#" class="btn btn-border btn-xs">Learn more</a>
+            </div>
+            <div class="col-lg-6">
+              <img src="http://via.placeholder.com/590x411" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-base section-color">
+        <div class="container">
+          <div class="row" data-anima="fade-bottom" data-time="1000">
+            <div class="col-lg-6">
+              <div class="title">
+                <h2>Development process</h2>
+                <p>Our forumla</p>
+              </div>
+            </div>
+            <div class="col-lg-6 align-right align-left-md">
+              <hr class="space-sm hidden-md" />
+              <a href="#" class="btn-text active">View services</a>
+            </div>
+          </div>
+          <hr class="space" />
+          <div class="box-steps" data-anima="fade-bottom" data-time="1000">
+            <div class="step-item">
+              <span>1</span>
+              <div class="content">
+                <h3>Client meeting</h3>
+                <div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipiscing elitsed do
+                    e amet consectetur adipiscing eiusmodua ciolo cadente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="step-item">
+              <span>2</span>
+              <div class="content">
+                <h3>Quotation</h3>
+                <div>
+                  <p>
+                    Ostreta ipsum dolor sit amet consectetur adipiscing amet
+                    conse actetur adipiscing e do arti mediocrito perato.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="step-item">
+              <span>3</span>
+              <div class="content">
+                <h3>Initialization</h3>
+                <div>
+                  <p>
+                    Artesio maggiore ipsum dolor sit amet consecteture dela amet
+                    consectetur adipiscing e adipiscing elitsed do favore
+                    eterno.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-base">
+        <div class="container">
+          <table
+            class="table table-grid table-border table-logos table-full-sm"
+            data-anima="fade-bottom"
+            data-time="1000"
+          >
+            <tbody>
+              <tr>
+                <td><img src="http://via.placeholder.com/374x103" alt="" /></td>
+                <td><img src="http://via.placeholder.com/374x103" alt="" /></td>
+                <td><img src="http://via.placeholder.com/374x103" alt="" /></td>
+                <td><img src="http://via.placeholder.com/374x103" alt="" /></td>
+                <td><img src="http://via.placeholder.com/374x103" alt="" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
     <i class="scroll-top-btn scroll-top show"></i>
     <footer class="light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Execoore</h3>
+            <p>
+              Full suite enable teams to develop unique search and discovery
+              experiences.
+            </p>
+            <div class="icon-links icon-social icon-links-grid social-colors">
+              <a class="facebook"><i class="icon-facebook"></i></a>
+              <a class="twitter"><i class="icon-twitter"></i></a>
+              <a class="instagram"><i class="icon-instagram"></i></a>
+              <a class="pinterest"><i class="icon-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h3>Resources</h3>
+            <ul class="icon-list icon-line">
+              <li><a href="#">Partners and advertising</a></li>
+              <li><a href="#">About us and the company</a></li>
+              <li><a href="#">Services and projects</a></li>
+              <li><a href="#">Contact us online</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="text-list text-list-line">
+              <li>
+                <b>Address</b>
+                <hr />
+                <p>139 Baker St, E1 7PT, London</p>
+              </li>
+              <li>
+                <b>Email</b>
+                <hr />
+                <p>contacts@example.com</p>
+              </li>
+              <li>
+                <b>Phone</b>
+                <hr />
+                <p>(02) 123 333 444</p>
+              </li>
+              <li>
+                <b>Opening hours</b>
+                <hr />
+                <p>8am-5pm Mon - Fri</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bar">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h3>Execoore</h3>
-                    <p>Full suite enable teams to develop unique search and discovery experiences.</p>
-                    <div class="icon-links icon-social icon-links-grid social-colors">
-                        <a class="facebook"><i class="icon-facebook"></i></a>
-                        <a class="twitter"><i class="icon-twitter"></i></a>
-                        <a class="instagram"><i class="icon-instagram"></i></a>
-                        <a class="pinterest"><i class="icon-pinterest"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Resources</h3>
-                    <ul class="icon-list icon-line">
-                        <li><a href="#">Partners and advertising</a></li>
-                        <li><a href="#">About us and the company</a></li>
-                        <li><a href="#">Services and projects</a></li>
-                        <li><a href="#">Contact us online</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="text-list text-list-line">
-                        <li><b>Email</b><hr /><p>contact@globalcodinglabs.com</p></li>
-                        <li><b>Phone and <a href="https://api.whatsapp.com/send?phone=5584991265501&text=Hello!%20I%20visited%20Global%20Coding%20Labs%20website%20and%20I%20would%20like%20to%20talk%20to%20you%20about%20a%20project."> Whatsapp </a> </b><hr /><p>(+55) 84 99126-5501</li>
-                        <li> <b>    <a href="https://api.whatsapp.com/send?phone=5584991265501&text=Hello!%20I%20visited%20Global%20Coding%20Labs%20website%20and%20I%20would%20like%20to%20talk%20to%20you%20about%20a%20project.">
-                                    <img src="media/logos/minilogowhatsapp.png" max width="85px" max height="85px" alt="Whatsapp logo for starting a conversation"> </a> 
-                                    <a href="mailto:contact@globalcodinglabs.com?Subject=Global%20Coding%20Labs%20Website%20-%20Message"><img src="media/logos/minilogogmail.png" max width="50px" max height="50px" alt="Gmail logo for sending a message"></a>
-                        </p>
-                                </b>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <span
+            >© 2019 Execoore - Technology And Business Template Handmade by
+            <a href="https://schiocco.com" target="_blank">schiocco.com</a
+            >.</span
+          >
+          <span
+            ><a href="#">Contact us</a> | <a href="#">Privacy policy</a></span
+          >
         </div>
-        <div class="footer-bar">
-            <div class="container">
-                <span>© 2020 Global Coding Labs - Technology And Business Solution </a>.</span>
-                <span><a href="#"> Contact us <contact@globalcodinglabs class="com"></contact@globalcodinglabs></a> | <a href="#">Privacy policy</a></span>
-            </div>
-        </div>
-        <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">
-        <script src="themekit/scripts/jquery.min.js"></script>
-        <script src="themekit/scripts/main.js"></script>
-        <script src="themekit/scripts/parallax.min.js"></script>
-        <script src="themekit/scripts/glide.min.js"></script>
-        <script src="themekit/scripts/progress.js"></script>
-        <script src="themekit/scripts/tab-accordion.js"></script>
-        <script src="themekit/scripts/magnific-popup.min.js"></script>
-        <script src="themekit/scripts/pagination.min.js"></script>
-        <script src="themekit/scripts/contact-form/contact-form.js"></script>
-        <script src="themekit/scripts/custom.js"></script>
+      </div>
+      <link 
+        rel="stylesheet" 
+        href="themekit/media/icons/fontawesome/css/fontawesome.css" />
+      <link 
+        rel="stylesheet" 
+        href="themekit/media/icons/fontawesome/css/brands.css" />
+      <link 
+        rel="stylesheet" 
+        href="themekit/media/icons/fontawesome/css/solid.css" />
+      <link
+        rel="stylesheet"
+        href="themekit/media/icons/iconsmind/line-icons.min.css"
+      />
+      <script src="themekit/scripts/jquery.min.js"></script>
+      <script src="themekit/scripts/main.js"></script>
+      <script src="themekit/scripts/parallax.min.js"></script>
+      <script src="themekit/scripts/glide.min.js"></script>
+      <script src="themekit/scripts/custom.js"></script>
+      <script src="themekit/scripts/progress.js"></script>
+      <script src="themekit/scripts/tab-accordion.js"></script>
+      <script src="themekit/scripts/magnific-popup.min.js"></script>
+      <script src="themekit/scripts/imagesloaded.min.js"></script>
+      <script src="themekit/scripts/contact-form/contact-form.js"></script>
     </footer>
-</body>
+  </body>
 </html>
