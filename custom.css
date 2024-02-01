@@ -10,6 +10,9 @@ nav.menu-fixed.menu-transparent:not(.scroll-menu) {
 .menu-fixed.scroll-menu {
   background: white;
 }
+.menu-fixed.scroll-menu #main-menu li a {
+  color: #404d60 !important;
+}
 
 .section-overlay {
   background-image: linear-gradient(
