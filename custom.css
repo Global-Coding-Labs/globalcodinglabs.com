@@ -41,6 +41,7 @@ nav.menu-fixed.menu-transparent:not(.scroll-menu) {
 }
 .location-menu li a {
   width: 150px !important;
+  cursor: default;
 }
 
 .location-menu li a img {
@@ -51,4 +52,17 @@ nav.menu-fixed.menu-transparent:not(.scroll-menu) {
 
 #contat-us-menu i {
   padding: 5px;
+}
+
+.cnt-box-info .cnt-info > div > span:first-child {
+  font-size: 10px;
+}
+
+.box-sign {
+  padding: 36px 15px 0 150px;
+}
+
+.box-sign img {
+  width: 200px;
+  transform: rotate(-20deg);
 }
