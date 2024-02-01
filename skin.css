@@ -313,7 +313,7 @@ main > section.section-base.section-color,
 .section-color .input-text,
 .section-color .input-select,
 .section-color .input-textarea {
-  background-color: rgb(228, 237, 243);
+  background-color: rgb(243 249 252);
 }
 
 .menu-cnt > ul > li > a,
@@ -1640,7 +1640,7 @@ footer .col-lg-4:last-child {
 .media-box-reveal .caption .extra-field {
   position: absolute;
   left: 45px;
-  color: rgb(228, 237, 243);
+  color: rgb(243 249 252);
   padding: 0 15px;
   border-right: 1px solid rgba(255, 255, 255, 0.22);
 }
