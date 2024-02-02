@@ -64,6 +64,9 @@ nav.menu-fixed.menu-transparent:not(.scroll-menu) {
   padding: 5px;
 }
 
+.grid-list .cnt-box {
+  cursor: initial !important;
+}
 #contact-form .container .row {
   align-items: start !important;
   text-align: justify;
